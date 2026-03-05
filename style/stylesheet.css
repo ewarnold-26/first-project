@@ -122,3 +122,14 @@ video {
     margin: 20px auto;
 }
 
+.drone-video {
+    width: 640px;
+}
+
+
+@media (max-width: 600px) {
+    .drone-video {
+        width: 100%;   
+        height: auto;
+    }
+}
